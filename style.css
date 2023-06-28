@@ -1,0 +1,13 @@
+
+ .titulo-principal{
+    text-align: center;
+}
+
+
+nav ul li a{
+    position: relative;
+    float: left;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
