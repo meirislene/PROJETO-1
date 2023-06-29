@@ -2,12 +2,72 @@
  .titulo-principal{
     text-align: center;
 }
-
-
-nav ul li a{
-    position: relative;
-    float: left;
-    text-align: left;
-    display: flex;
-    justify-content: left;
+h1{
+    text-align: center;
 }
+body{
+    background-color: deeppink;
+}
+nav{
+    background-color:greenyellow;
+       
+}
+
+nav ul li{
+    position: relative;
+     display: inline;
+    
+}
+   
+   
+nav ul li a{
+       position: relative;
+       text-decoration: none;
+       display: inline;
+       margin-left: 50px;
+}
+
+div img{
+    width: 800px;
+    height: 800px;
+    margin-left: 300px;
+}
+
+figure{
+    position: relative;
+    text-align: center;
+}
+
+figure figcaption{
+    display: flex;
+    justify-content:center ;
+}
+
+.bnt{
+    display:inline-table;
+    position:relative;
+  }
+
+.bnt-1{
+    display: inline-table;
+    position: relative;
+  }
+
+.bnt1 button{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-bottom: 100px;
+    /*-webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);*/
+}
+
+.bnt button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+  }
