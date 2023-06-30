@@ -58,9 +58,8 @@ figure figcaption{
     top: 50%;
     left: 40%;
     margin-bottom: 100px;
-    /*-webkit-transform:translate3d(-50%, -50%, 0);
-    -moz-transform:translate3d(-50%, -50%, 0);
-    transform:translate3d(-50%, -50%, 0);*/
+    justify-content: center;
+    
 }
 
 .bnt button{

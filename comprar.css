@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.botão{
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav ul li {
+    display: inline;
+    margin-left: 400px;
+    
+}
+
+
+form label{
+    display: block;
+    align-content: center;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(./imagem/21-48-22-176_512.gif);
+}
