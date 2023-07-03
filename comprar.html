@@ -16,7 +16,8 @@
 
         
         <div class="botão">
-            <button onclick="eventodeclique"> Frete grátis</button>
+            <button onclick="eventodeclique">Frete grátis</button>
+            
             
         </div>
 
@@ -35,30 +36,32 @@
             </ul>
         </nav>
 
-        <form action="">
+        <form action="https://formspree.io/f/xyyqgqek" method="post" id="my-form">
 
             <h2>formulário de compra:</h2>
 
-            <label for="nome">Nome:</label>
+            <label for="nome" id="nome">Nome:</label>
             <input type="text" name="nome" placeholder="" id="digite seu nome" required>
 
-            <label for="sobrenome"> Sobrenome:</label>
+            <label for="sobrenome" id="sobrenome"> Sobrenome:</label>
             <input type="text" name="sobrenome" placeholder="" id=" digite seu sobrenome"required>
 
-            <label for="cidade"> Cidade:</label>
+            <label for="cidade" id="cidade"> Cidade:</label>
             <input type="text" name="cidade" placeholder="" id="digite sua cidade"required>
 
-            <label for="email">Email:</label>
+            <label for="email" id="email">Email:</label>
             <input type="text" name="email" placeholder=""  id=" digite seu email" required>
 
-            <label for="data de nascimento">Data de nascimento:</label>
+            <label for="data-de-nascimento" id="data-de-nascimento">Data de nascimento:</label>
             <input type="text" name="data de nascimento" placeholder="" id="digite sua data de nascimento" required>
 
-            <label for="forma de pagamento"> Forma de pagamento:</label>
+            <label for="forma-de-pagamento" id="forma-de-pagamento"> Forma de pagamento:</label>
             <input type="text" name=" forma de pagamento" placeholder="" id="digite sua forma de pagamento"required>
 
+            <button type="submit" id="enviar">enviar</button>
 
         </form>
+        <script src="script.js"></script>
 
     </div>
 </body>
